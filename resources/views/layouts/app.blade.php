@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css">
 </head>
 <body>
+    @include('inc.topbar')
+    <br>
     <div class="row">
+        @include('inc.messages')
         @yield('content')
     </div>
 </body>
