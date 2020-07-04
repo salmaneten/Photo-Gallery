@@ -20,3 +20,4 @@ Route::post('/albums/store', 'AlbumsController@store');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+/*Route::get('/albums/{{id}}', 'AlbumsController@show');*/
